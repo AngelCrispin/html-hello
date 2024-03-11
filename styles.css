@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: gainsboro;
+}
+
+#title-page{
+    display:flex;
+    justify-content: center;
+    background: white;
+}
+
+#content-page{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom:40px;
+}
+
+h1 {
+    width: 50%;
+}
+
+.box {
+    margin-top:40px;
+    width: 50%;
+    background: white;
+}
+
+.title-card{
+    font-weight:bold;
+    float:left;
+    margin:10px;
+}
+
+.date-card{
+    float:right;
+    color:gray;
+    margin:10px;
+}
+
+img {
+    width: 100%;    
+    height: 100%;    
+}
+
+p {
+    margin:15px;
+    font-size:14px;
+}
+
+
